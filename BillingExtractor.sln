@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36811.4 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillingExtractor.Domain", "BillingExtractor.Domain\BillingExtractor.Domain.csproj", "{8F347DC3-AF05-46BB-B6A2-58D32759ABED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillingExtractor.Application", "BillingExtractor.Application\BillingExtractor.Application.csproj", "{A87CA04C-45F7-4651-89C0-E62882F4F091}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillingExtractor.Infrastructure", "BillingExtractor.Infrastructure\BillingExtractor.Infrastructure.csproj", "{FD910D8B-AB80-498F-ABF0-8D59114A727C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillingExtractor.Api", "BillingExtractor.Api\BillingExtractor.Api.csproj", "{C3BB53F9-DAB5-41C4-B109-2C8179B4A842}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillingExtractor.Domain.Tests", "BillingExtractor.Domain.Tests\BillingExtractor.Domain.Tests.csproj", "{381384F7-FA26-407B-9407-C75EEF67F847}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillingExtractor.Application.Tests", "BillingExtractor.Application.Tests\BillingExtractor.Application.Tests.csproj", "{25A4FB08-FFC3-4D7B-82C3-E958E198847A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F347DC3-AF05-46BB-B6A2-58D32759ABED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F347DC3-AF05-46BB-B6A2-58D32759ABED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F347DC3-AF05-46BB-B6A2-58D32759ABED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F347DC3-AF05-46BB-B6A2-58D32759ABED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A87CA04C-45F7-4651-89C0-E62882F4F091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A87CA04C-45F7-4651-89C0-E62882F4F091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A87CA04C-45F7-4651-89C0-E62882F4F091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A87CA04C-45F7-4651-89C0-E62882F4F091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD910D8B-AB80-498F-ABF0-8D59114A727C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD910D8B-AB80-498F-ABF0-8D59114A727C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD910D8B-AB80-498F-ABF0-8D59114A727C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD910D8B-AB80-498F-ABF0-8D59114A727C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3BB53F9-DAB5-41C4-B109-2C8179B4A842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3BB53F9-DAB5-41C4-B109-2C8179B4A842}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3BB53F9-DAB5-41C4-B109-2C8179B4A842}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3BB53F9-DAB5-41C4-B109-2C8179B4A842}.Release|Any CPU.Build.0 = Release|Any CPU
+		{381384F7-FA26-407B-9407-C75EEF67F847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{381384F7-FA26-407B-9407-C75EEF67F847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{381384F7-FA26-407B-9407-C75EEF67F847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{381384F7-FA26-407B-9407-C75EEF67F847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25A4FB08-FFC3-4D7B-82C3-E958E198847A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25A4FB08-FFC3-4D7B-82C3-E958E198847A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25A4FB08-FFC3-4D7B-82C3-E958E198847A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25A4FB08-FFC3-4D7B-82C3-E958E198847A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51B86FAD-2AD4-40EF-9C5D-1DCC18D7DAF5}
+	EndGlobalSection
+EndGlobal
